@@ -1,3 +1,4 @@
+import arrays.Task2_Unique;
 import basics.Task1_Sum;
 
 public class Main {
@@ -11,6 +12,10 @@ public class Main {
         Пример: "hello" → h:1, e:1, l:2, o:1.*/
         //Решение___1
         System.out.println(Task1_Sum.sum(3));
+        System.out.println("<------->");
+ //Решение___2
+int[] array = {10, 5, 8, 10, 3};
+        System.out.println(Task2_Unique.getUnique(array));
 
     }
 }
