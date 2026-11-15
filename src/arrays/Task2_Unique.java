@@ -16,6 +16,7 @@ for(int number : array) {
         secondMax= number;
     }
 }return secondMax;
+
 /*for(int number: array){
     if(number>max){
         max= number;
